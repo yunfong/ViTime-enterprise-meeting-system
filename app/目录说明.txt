@@ -1,0 +1,18 @@
+├─application         程序路径，和zendframework查不多的。
+│  ├─cache		缓存目录，暂时没用到
+│  ├─config		配置，主要数据库配置(database.php)等等，基本不用修改
+│  ├─controllers	控制器
+│  ├─core		扩展框架的几个类，主要扩展了controller和model
+│  ├─errors		错误处理文件
+│  ├─helpers		助手文件，就是定义了一些函数
+│  ├─hooks		钩子系统，类似触发器的，比如执行控制器前，可以干嘛，等等
+│  ├─language		语言文件
+│  ├─libraries	类库，自定义的类库
+│  ├─logs		log记录
+│  ├─models		数据库模型
+│  ├─services		服务类，主要就是一切操作集合，介于Controller和model之间
+│  ├─third_party	未使用
+│  └─views		视图
+├─CodeIgniter		框架
+├─docs			文档
+└─webroot		站点根目录，类似zendframework的public目录
